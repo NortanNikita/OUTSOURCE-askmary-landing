@@ -4,6 +4,10 @@
   --backgroundColor: rgb(249,249,249);
   --JosefinSans: 'Josefin Sans', sans-serif;
 }
+.no-gutters{
+  margin:0;
+  padding:0;
+}
 html, body, .landing-container{
   margin:0;
   padding:0;
@@ -113,5 +117,56 @@ border: none; */
   font-size: 18px;
   padding: 25px 15px 25px 15px;
   margin-right: 20px;
+  opacity: 0.3;
 
+}
+.form-input:hover,.form-input:focus, .form-input:active, .shelude-btn:hover, .shelude-btn:focus, .shelude-btn:active{
+  outline:none;
+}
+
+.first-type-screen{
+  width: 100%;
+  padding:0;
+  margin:0;
+  padding-left:180px;
+  padding-right:180px;
+}
+.default-title{
+color:#22252A;
+font-size: 40px;
+position: relative;
+}
+.title-line{
+  width: 53px;
+    height: 3px;
+    background: #338B84;
+    left: 0;
+    position: absolute;
+    border: 0;
+}
+.img-block{
+  width: 100%;
+}
+.img-content{
+  width: 100%;height: auto;
+}
+.content-number{
+  color:#22252A;
+  opacity: 0.5;
+  font-size: 25px;
+  font-family: var(--JosefinSans);
+}
+.inner-content span{
+  color:#22252A;
+  font-family: var(--JosefinSans);
+  font-size: 25px;
+}
+.inner-content p{
+  font-size: 22px;
+  font-family: var(--JosefinSans);
+  color:#22252A;
+  opacity: 0.7;
+}
+.description-block{
+  margin-top: 200px;
 }
