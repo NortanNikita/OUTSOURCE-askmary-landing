@@ -198,12 +198,115 @@ letter-spacing: 0px;
   margin-top: 20px;
   font-weight: 400;
 }
-.description-block{
+/* .description-block{
 
-}
+} */
 .description-block.mrgn-200{
   margin-top: 200px;
 }
 .description-block.mrgn-50{
   margin-top: 50px;
 }
+
+
+
+/*--------------- <MEDIA> -----------------*/
+@media only screen and (max-width : 1920px) {
+
+}
+@media only screen and (max-width : 1600px) {
+  .ipad {
+    height: 667px;
+  }
+  .description-block.mrgn-200{
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width : 1500px) {
+  .main-screen__content{
+    padding-left: 222px;
+  }
+}
+@media only screen and (max-width : 1366px) {
+  .ipad {
+    height: 567px;
+    margin-right: -142px;
+  }
+  .main-screen__content{
+    padding-left: 122px;
+  }
+}
+@media only screen and (max-width : 1280px) {
+  .main-screen__content{
+    padding-left: 122px;
+  }
+  .ipad {
+    height: 567px;
+  }
+  .first-type-screen{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .second-type-screen{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media only screen and (max-width : 1050px) {
+  .main-screen__content{
+    padding-left: 22px;
+  }
+  .form-input{
+    width: 250px;
+  }
+  .ipad {
+    height: 567px;
+    margin-right: -341px;
+  }
+}
+@media only screen and (max-width : 991px) {
+  .second-type-screen {
+    height: 100%;
+  }
+  .default-title {text-align: center;}
+  .title-line{
+    right: 0;
+  }
+  .main-screen-title {
+    font-size: 30px;
+  }
+  .main-screen-description {
+    font-size: 20px;
+  }
+  .second-type-screen{
+    margin-top:50px
+  }
+}
+@media only screen and (max-width : 788px) and (orientation: portrait)  {
+  .ipad {
+    height: 767px;
+    margin-right: -341px;
+  }
+}
+@media only screen and (max-width : 500px) and (orientation: portrait)  {
+  .ipad {
+  display: none
+  }
+  .form-input {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .main-screen-text{
+    text-align: center;
+  }
+  .main-screen__content{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logotype {
+    right: 0;
+    left: 0;
+  }
+}
+/*--------------- </MEDIA> -----------------*/
