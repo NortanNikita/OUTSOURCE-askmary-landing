@@ -305,8 +305,12 @@ letter-spacing: 0px;
     padding-right: 10px;
   }
   .logotype {
-    right: 0;
-    left: 0;
+    left: calc(50% - 115px);
+  }
+}
+@media only screen and (max-width : 375px) {
+  .description-block{
+   text-align: center;
   }
 }
 /*--------------- </MEDIA> -----------------*/
