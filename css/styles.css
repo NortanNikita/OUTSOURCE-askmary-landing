@@ -115,6 +115,7 @@ border: none; */
   font-family: var(--JosefinSans);
   font-size: 30px;
   font-weight: 500;
+  margin-bottom: 30px;
   color: var(--primaryColor);
 }
 .form-input{
@@ -207,7 +208,7 @@ letter-spacing: 0px;
   line-height: 35px;
   letter-spacing: 0.55px;
   margin-top: 20px;
-  font-weight: 400;
+  font-weight: 300;
 }
 /* .description-block{
 
@@ -345,9 +346,6 @@ letter-spacing: 0px;
 }
 .main-screen .shelude-btn:not(.login-btn){
   width: 100%;
-}
-.form-screen__title{
-  margin-bottom: 30px;
 }
   .content-number{
     display: none;
