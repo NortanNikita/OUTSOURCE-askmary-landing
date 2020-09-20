@@ -84,7 +84,7 @@ border: none; */
   border: none;
   background: var(--primaryBtn);
   font-size: 18px;
-  
+  padding-top:5px;
   font-family: var(--JosefinSans);
   color:#fff;
   text-decoration:none;
@@ -180,7 +180,16 @@ letter-spacing: 0px;
   color:#22252A;
   opacity: 0.5;
   font-size: 25px;
+  line-height: 30px;
   font-family: var(--JosefinSans);
+}
+.content-number-mobile{
+  color:#22252A;
+  opacity: 0.5;
+  font-size: 25px;
+  line-height: 30px;
+  font-family: var(--JosefinSans);
+  display: none;
 }
 .inner-content span{
   color:#22252A;
@@ -188,7 +197,6 @@ letter-spacing: 0px;
   font-size: 25px;
   line-height: 30px;
   letter-spacing: 0.63px;
-  
   font-weight: 500;
 }
 .inner-content p{
@@ -211,8 +219,12 @@ letter-spacing: 0px;
   margin-top: 50px;
 }
 
-
-
+.custom-mt{
+  margin-top:15px;
+}
+.mob-block{
+  display: none;
+}
 /*--------------- <MEDIA> -----------------*/
 @media only screen and (max-width : 1920px) {
 
@@ -294,25 +306,72 @@ letter-spacing: 0px;
   
 }
 @media only screen and (max-width : 500px) and (orientation: portrait)  {
+  .main-screen__ipad {
+    left: -70%;
+    bottom: -50%;
+  }
   .ipad {
-  display: none
+    height: 300px;
   }
   .form-input {
-    margin-right: 0;
+    margin-right: 0px;
     margin-bottom: 20px;
+    width: 90%;
   }
   .main-screen-text{
-    text-align: center;
+    text-align: left;
+  }
+  .main-screen-title{
+    font-size: 20px;
   }
   .main-screen__content{
     padding-left: 10px;
     padding-right: 10px;
   }
   .logotype {
-    left: calc(50% - 115px);
+    width: 115px;
+    margin-left: 30px;
   }
   .shelude-btn.login-btn{
     margin-left: 0;
+    position: absolute;
+    top: 3px;
+    border: none;
+    box-shadow: 0 0 black;
+    right: 0;
+}
+.shelude-btn:not(.login-btn){
+  width: 90%;
+}
+.main-screen .shelude-btn:not(.login-btn){
+  width: 100%;
+}
+.form-screen__title{
+  margin-bottom: 30px;
+}
+  .content-number{
+    display: none;
+  }
+  .content-number-mobile{
+    display: inline-block;
+  }
+  .mob-block{
+    display: block;
+  }
+  .no-mob-block{
+    display: none;
+  }
+  .img-block{
+    text-align: center;
+    text-align: -webkit-center;
+  }
+  .inner-content, .inner-content p{
+    text-align: left;
+  }
+  .form-screen, .first-type-screen, .second-type-screen{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0;
   }
 }
 @media only screen and (max-width : 375px) {
