@@ -371,13 +371,13 @@ letter-spacing: 0px;
   .inner-content p{
     font-size: 18px;
   }
-  .form-screen{
-    padding-left: 50px;
-    padding-right: 50px;
+  .form-screen, .first-type-screen, .second-type-screen {
+    padding-left: 21px;
+    padding-right: 21px;
   }
   .form-screen, .first-type-screen, .second-type-screen{
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom:50px;
     margin-top: 0;
   }
 }
