@@ -285,10 +285,7 @@ letter-spacing: 0px;
   .second-type-screen {
     height: 100%;
   }
-  .default-title {text-align: center;}
-  .title-line{
-    right: 0;
-  }
+
   .main-screen-title {
     font-size: 30px;
   }
@@ -324,6 +321,9 @@ letter-spacing: 0px;
   }
   .main-screen-title{
     font-size: 20px;
+  }
+  .default-title{
+    text-align: left;
   }
   .main-screen__content{
     padding-left: 10px;
