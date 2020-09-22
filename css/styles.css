@@ -314,7 +314,7 @@ letter-spacing: 0px;
   .form-input {
     margin-right: 0px;
     margin-bottom: 20px;
-    width: 90%;
+    width: 100%;
   }
   .main-screen-text{
     text-align: left;
@@ -322,9 +322,11 @@ letter-spacing: 0px;
   .main-screen-title{
     font-size: 20px;
   }
-  .default-title{
+  .default-title, .form-screen__title{
     text-align: left;
+    font-size: 32px;
   }
+  
   .main-screen__content{
     padding-left: 10px;
     padding-right: 10px;
@@ -342,7 +344,7 @@ letter-spacing: 0px;
     right: 0;
 }
 .shelude-btn:not(.login-btn){
-  width: 90%;
+  width: 100%;
 }
 .main-screen .shelude-btn:not(.login-btn){
   width: 100%;
@@ -365,6 +367,13 @@ letter-spacing: 0px;
   }
   .inner-content, .inner-content p{
     text-align: left;
+  }
+  .inner-content p{
+    font-size: 18px;
+  }
+  .form-screen{
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .form-screen, .first-type-screen, .second-type-screen{
     padding-top: 50px;
