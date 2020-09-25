@@ -720,6 +720,99 @@ letter-spacing: 0px;
 
 /*--------------------------footer-------------------------------*/
 
+/*--------------------------MODAL CUSTOM-------------------------------*/
+
+.modal{
+  background: transparent linear-gradient(155deg, rgba(90,193,139,0.84) 0%, rgba(0,70,127,0.84) 100%) 0% 0% no-repeat padding-box;
+  backdrop-filter: blur(6px);
+}
+.modal-content{
+  box-shadow: 0px 0px 20px #0000001A;
+  border-radius: 15px;
+  border:none;
+}
+.modal-body{
+  text-align: center;
+  padding-left:41px;
+  padding-right:41px;
+}
+.close-modal-btn{
+  width:45px;
+  height: 45px;
+  background: #1C6D83 0% 0% no-repeat padding-box;
+  border: 2px solid #FFFFFF;
+  border-radius: 100%;
+  position: absolute;
+    top: -28px;
+    right: -27px;
+}
+.close-modal-btn:hover, .close-modal-btn:focus, .close-modal-btn:active{
+outline:none;
+}
+.close-modal-btn__x{
+  background: white;
+  width: 23px;
+  transform: rotate(45deg);
+  height: 1.4px;
+  border-radius: 2px;
+}
+.close-modal-btn__x.x-2{
+  height: 1.4px;
+  transform: rotate(-45deg);
+  margin-top: -19px;
+}
+.pop-up_input{
+  width:100%;
+  height: 60px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.0992414);
+  border-radius: 37px;
+  border: 1px solid #707070;
+  background: transparent;
+  font-size: 18px;
+  padding: 15px 25px 15px 25px;
+  margin-right: 20px;
+  opacity: 0.3;
+}
+.pop-up_input:hover, .pop-up_input:focus, .pop-up_input:active{
+  outline:none;
+} 
+.pop-up_label{
+  width:100%;
+  text-align: left;
+  padding-top:20px;
+}
+.pop-up_label span{
+  font-family: var(--JosefinSans);
+  font-weight: 300;
+  font-size: 22px;
+}
+.pop-up__schelude-btn{
+  margin-top:30px;
+  margin-bottom:30px;
+  width:250px;
+  height: 60px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.0992414);
+  border-radius: 30px;
+  border: none;
+  background: var(--primaryBtn);
+  font-size: 22px;
+  padding-top:5px;
+  line-height: 27px;
+  font-family: var(--JosefinSans);
+  color:#fff;
+  text-decoration:none;
+}
+.modal-img{
+  margin-top:15px;
+}
+@media (max-width: 576px) {
+  .close-modal-btn{
+    top: -4px;
+    right: -4px;
+  }
+}
+/*--------------------------/MODAL CUSTOM-------------------------------*/
+
 
 /*--------------------------PRODUCT-PAGE-------------------------------*/
 .product-screen__background {
